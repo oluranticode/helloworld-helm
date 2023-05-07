@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://gitlab.com/Temzycode_/node-user-config.git
+    repoURL: https://github.com/oluranticode/helloworld-helm
     targetRevision: HEAD
-    path: dev
+    path: templates
   destination: 
     server: https://kubernetes.default.svc
-    namespace: node-user
+    namespace: Hello
 
   syncPolicy:
     syncOptions:
