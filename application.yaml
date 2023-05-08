@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/oluranticode/helloworld-helm
     targetRevision: HEAD
-    path: templates
+    path: hello-chart
   destination: 
     server: https://kubernetes.default.svc
     namespace: Hello
